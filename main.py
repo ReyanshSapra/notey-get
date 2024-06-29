@@ -145,8 +145,8 @@ elif st.session_state.currentScreen == "final upload":
 
 elif st.session_state.currentScreen == "get":
     st.title("Receive Notes")
-    st.session_state.recieveNameEntry = st.text_input(label="Who's notes do you want?", label_visibility="hidden")
-    st.session_state.recieveTopicEntry = st.text_input(label="What subject?", label_visibility="hidden")
+    st.session_state.recieveNameEntry = st.text_input(label="Who's notes do you want?")
+    st.session_state.recieveTopicEntry = st.text_input(label="What subject?")
 
     st.session_state.recieveNextButton = st.button("Next >>")
 
