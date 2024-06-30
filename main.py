@@ -5,6 +5,8 @@ from minio import Minio
 from minio.error import S3Error
 from io import BytesIO
 
+st.set_page_config(page_title="Notey Get", page_icon="✍️")
+
 if 'currentScreen' not in st.session_state:
     st.session_state.currentScreen = "home"
 
