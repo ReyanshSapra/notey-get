@@ -141,6 +141,7 @@ elif st.session_state.currentScreen == "final upload":
                               content_type=st.session_state.uploader.type)
 
         st.subheader("File Uploaded Successfully")
+        st.balloons()
         print("uploaded")
 
 elif st.session_state.currentScreen == "get":
